@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuUsuario">
+
+    <fragment
+        android:id="@+id/menuUsuario"
+        android:name="com.app.ecommerce_univalle.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/menuNotification"
+        android:name="com.app.ecommerce_univalle.NotificationsFragment"
+        android:label="Notificacion"
+        tools:layout="@layout/fragment_notificacions" />
+    <fragment
+        android:id="@+id/menuSettings"
+        android:name="com.app.ecommerce_univalle.SettingsFragment"
+        android:label="Ajustes"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
