@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuUsuario"
+        android:icon="@drawable/usuario"
+        android:title="@string/usuario"/>
+    <item android:id="@+id/menuNotification"
+        android:icon="@drawable/notificacion"
+        android:title="@string/notificacion"/>
+    <item android:id="@+id/menuProductos"
+        android:icon="@drawable/caja"
+        android:title="@string/productos"/>
+    <item android:id="@+id/menuFinanzas"
+        android:icon="@drawable/productividad"
+        android:title="@string/finanzas"/>
+
+    <item android:title="@string/otros">
+        <menu>
+            <item android:id="@+id/menuInfo"
+                android:icon="@drawable/info"
+                android:title="@string/info"/>
+            <item android:id="@+id/menuSettings"
+                android:icon="@drawable/engranaje"
+                android:title="@string/ajustes"/>
+
+        </menu>
+
+    </item>
+
+</menu>
