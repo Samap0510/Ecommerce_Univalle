@@ -73,6 +73,7 @@
         android:layout_below="@id/password"
         android:backgroundTint="#E579F8"
         android:text="LOGIN"
+        android:onClick="changeActivity"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"/>

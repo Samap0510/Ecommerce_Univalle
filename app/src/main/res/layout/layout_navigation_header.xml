@@ -13,7 +13,8 @@
         android:src="@drawable/profile"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:riv_oval="true"/>
+        app:riv_oval="true">
+    </com.makeramen.roundedimageview.RoundedImageView>
 
     <View
         android:id="@+id/viewSupporter"
