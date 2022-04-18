@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853571094888",
+    "project_id": "ecommerce-univalle",
+    "storage_bucket": "ecommerce-univalle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853571094888:android:c67f6b8c1458b61c0ceedd",
+        "android_client_info": {
+          "package_name": "com.app.ecommerce_univalle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853571094888-776ltbiv8o47lgo4q963tmgedlbgtl7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHUCUy25BvuZAg3yYv0rzkMAwnciO8pII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853571094888-776ltbiv8o47lgo4q963tmgedlbgtl7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
